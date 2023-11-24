@@ -1,0 +1,142 @@
+body{
+    background-color: black;
+    font-family: 'Dosis';
+}
+
+#title1{
+    color: white;
+    text-align: center;
+    font-size: 5em;
+}
+
+#byG{
+    color: rgb(162, 159, 159);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#maindiv{
+    /* border: 3px solid white; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding: 5px;
+    row-gap: 5px;
+    column-gap: 5px;
+    display: grid;
+    grid-template-areas: 
+    'box1 box2 box3'
+    'box4 box5 box6';
+}
+
+#box1{
+   color: white; 
+   /* border: 2px solid red; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#maindiv#box1,img{
+    width: 40%;
+}
+
+
+
+.shape_title{
+    text-align: center;
+    font-size: 2em;
+}
+
+#box2{
+   color: white; 
+   /* border: 2px solid red; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#imgRettangolo{
+    width: 55%;
+    /* margin-bottom: 100px; */
+    margin-bottom: -55px;
+    margin-top: -20px;
+    /* position: relative; */
+}
+
+#box3{
+   color: white; 
+   /* border: 2px solid red; */
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#box4{
+   color: white; 
+   /* border: 2px solid red; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#imgTrapezio{
+    width: 50%;
+    /* position: relative; */
+    margin-bottom: -45px;
+    margin-top: -50px;
+}
+
+#box5{
+   color: white; 
+   /* border: 2px solid red; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#imgParallelogramma{
+    width: 58%;
+    /* position: relative; */
+    margin-top: 29px;
+    margin-bottom: 32px;
+}
+
+#box6{
+   color: white; 
+   /* border: 2px solid red; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#imgRombo{
+    width: 55%;
+    position: relative;
+    bottom: 50px;
+    left: 12px;
+}
+
+
+/* INPUT */
+input[type="text"]{
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+input[type="submit"]{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.812);
+    border: 2px solid green;
+    border-radius: 25px;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgba(45, 230, 54, 0.738);
+    color: black;
+}

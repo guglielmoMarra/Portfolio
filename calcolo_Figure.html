@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Audiowide&family=Big+Shoulders+Display&family=Changa:wght@500&family=Dosis:wght@200;300&family=Fredericka+the+Great&family=Gentium+Book+Plus:ital,wght@1,400;1,700&family=Happy+Monkey&family=Lemonada&family=Mandali&family=Martel:wght@700&family=Monoton&family=Oxanium&family=Tourney:wght@100;300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style_calcFigure.css">
+    <link rel="icon" href="images_calcFigure/mathIcon.jpg">
+    <script src="scriptFigure.js"></script>
+    <title>Figure geometriche</title>
+</head>
+
+<body>
+
+    <p id="title1">FORMULE GEOMETRICHE</p>
+    <p id="byG">By Guglielmo Marra</p>
+
+    <div id="maindiv">
+
+        <!-- -------QUADRATO------- -->
+        <div id="box1">
+            <p class="shape_title">Quadrato</p>
+            <img src="images_calcFigure/quadrato.png" alt="">
+            <!-- INPUT -->
+            <input type="text" placeholder="lato" id="latoQ">
+            <input type="submit" value="calcola" onclick="calcolaQ()">
+
+            <!-- DIV -->
+            <div id="perimetroQ"></div>
+            <div id="areaQ"></div>
+
+        </div>
+
+        <!-- -------RETTANGOLO------- -->
+
+        <div id="box2">
+            <p class="shape_title">Rettangolo</p>
+
+            <img id="imgRettangolo" src="images_calcFigure/rettangolo.png" alt="rettangolo">
+            <!-- INPUT -->
+            <input type="text" placeholder="base" id="baseR">
+            <input type="text" placeholder="altezza" id="altezzaR">
+            <input type="submit" value="calcola" onclick="calcolaRett()">
+
+            <!-- DIV -->
+            <div id="perimetroR"></div>
+            <div id="areaR"></div>
+
+        </div>
+
+        <!-- -------TRIANGOLO------- -->
+        <div id="box3">
+            <p class="shape_title">Triangolo isoscele</p>
+
+            <img src="images_calcFigure/triangolo.png" alt=" triangolo">
+            <!-- INPUT -->
+            <input type="text" placeholder="lato" id="latoTR">
+            <input type="text" placeholder="base" id="baseTR">
+            <input type="text" placeholder="altezza" id="altezzaTR">
+            <input type="submit" value="calcola" onclick="calcolaTR()">
+
+            <!-- DIV -->
+            <div id="perimetroTR"></div>
+            <div id="areaTR"></div>
+        </div>
+
+        <!-- -------TRAPEZIO------- -->
+        <div id="box4">
+            <p class="shape_title">Trapezio isoscele</p>
+            <img id="imgTrapezio" src="images_calcFigure/trapezio.png" alt="trapezio isoscele">
+            <!-- INPUT -->
+            <input type="text" placeholder="lato" id="latoTrap">
+            <input type="text" placeholder="altezza" id="altezzaTrap">
+            <input type="text" placeholder="base1" id="b1Trap">
+            <input type="text" placeholder="base2" id="b2Trap">
+            <input type="submit" value="calcola" onclick="calcolaTRAP()">
+
+            <!-- DIV -->
+            <div id="perimetroTRAP"></div>
+            <div id="areaTRAP"></div>
+        </div>
+
+        <!-- -------PARALLELOGRAMMA------- -->
+        <div id="box5">
+            <p class="shape_title">Parallelogramma</p>
+            <img id="imgParallelogramma" src="images_calcFigure/parallelogramma.png" alt="parallelogramma">
+
+            <!-- INPUT -->
+            <input type="text" placeholder="lato" id="latoP">
+            <input type="text" placeholder="base" id="baseP">
+            <input type="text" placeholder="altezza" id="altezzaP">
+            <input type="submit" value="calcola" onclick="calcolaParall()">
+
+            <!-- DIV -->
+            <div id="perimetroP"></div>
+            <div id="areaP"></div>
+        </div>
+
+        <!-- -------ROMBO------- -->
+        <div id="box6">
+            <p class="shape_title">Rombo</p>
+            <img id="imgRombo" src="images_calcFigure/rombo.png" alt="rombo">
+            <!-- INPUT -->
+            <input type="text" placeholder="latoRombo" id="latoRombo">
+            <input type="text" placeholder="dRombo" id="dRombo">
+            <input type="text" placeholder="DRombo" id="DRombo">
+            <input type="submit" value="calcola" onclick="calcolaRombo()">
+
+            <!-- DIV -->
+            <div id="perimetroRombo"></div>
+            <div id="areaRombo"></div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

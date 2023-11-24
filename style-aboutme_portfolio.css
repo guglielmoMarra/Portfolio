@@ -1,0 +1,836 @@
+/* ------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+---------------------------------------- SCREEN MIN 1100px -------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1100px) {
+    
+body{
+    background-color: rgb(0, 0, 0, 0.94);
+    font-family: 'dosis',sans-serif;
+}
+
+#navbar{
+    position: fixed;
+    background-color: rgba(240, 96, 0, 0.788);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* border: 2px solid red; */
+    /* width: fit-content; */
+    animation-name: scale-up-center;
+    animation-duration: 1s;
+    z-index: 1;
+    left: 50%;
+    margin-left: -180px;
+    top: 0;
+}
+
+
+ul {
+    font-family: 'dosis';
+    font-size: 2em;
+    list-style-type: none;
+    /* border-radius: 30px; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    /* background-color: #333; */
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgba(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 0);
+    opacity: 0.7;
+    color: rgb(209, 126, 70);
+}
+
+#a_home{
+    border-bottom-left-radius: 18px;
+}
+
+#a_aboutme{
+    background-color: rgb(0, 0, 0, 0.9);
+    color: white;
+    /* width: 90%; */
+    border-bottom-right-radius: 18px;
+}
+#a_aboutme:hover{
+    color: black;
+    color: white;
+    border-bottom-right-radius: 20px;
+}
+
+#foto_cv{
+    width: 25em;
+    position: absolute;
+    top: 36%;
+    left: 35%;
+    border-radius: 100px;
+}
+
+#text_style{
+    color: rgba(240, 96, 0, 0.788);
+    font-family: 'monoton';
+    font-size: 7vw;
+    white-space: nowrap;
+    position: absolute;
+    left: 10%;
+}
+#text2_style{
+    color: rgba(240, 96, 0, 0.788);
+    font-family: 'plus jakarta sans';
+    font-size: 3.7vw;
+    white-space: nowrap;
+    position: absolute;
+    left: 37.5%;
+    top: 29%;
+}
+
+/* ICONE SOCIAL */
+.fa-google {
+    /* background: #cb2027; */
+    color: rgba(240, 96, 0, 0.788);
+    text-decoration: none;
+    font-size: 16em;
+}
+
+.fa-instagram {
+    /* background: #125688; */
+    color: rgba(240, 96, 0, 0.788);
+    text-decoration: none;
+    font-size: 11em;
+
+}
+
+.fa-linkedin {
+    /* background: #007bb5; */
+    color: rgba(240, 96, 0, 0.788);
+    text-decoration: none;
+    font-size: 12em;
+
+}
+
+.fa-pinterest {
+    /* border: 3px solid rgb(209, 126, 70); */
+    color: rgba(240, 96, 0, 0.788);
+    text-decoration: none;
+    font-size: 13em;
+
+}
+
+.fa-github{
+    color: rgba(240, 96, 0, 0.788);
+    text-decoration: none;
+    font-size: 16em;
+
+}
+.fa-whatsapp{
+    color: rgba(240, 96, 0, 0.788);
+    text-decoration: none;
+    font-size: 13em;
+
+}
+  
+.fa-instagram:hover{
+    opacity: 0.5;
+}
+.fa-linkedin:hover{
+    opacity: 0.5;
+}
+.fa-github:hover{
+    opacity: 0.5;
+}
+.fa-pinterest:hover{
+    opacity: 0.5;
+}
+.fa-google:hover{
+    opacity: 0.5;
+}
+.fa-whatsapp:hover{
+    opacity: 0.5;
+}
+
+
+/* ----- BOX SOCIAL ----- */    
+
+#div_gmail{
+ /* border: 3px solid rgb(209, 126, 70); */
+ border-radius: 20px;
+ width: fit-content;
+ padding: 10px;
+ text-align: center;
+ position: absolute;
+ top: 45%;
+ left: 15%;
+ transform: rotate(10deg);
+
+}
+#div_instagram{
+ /* border: 3px solid rgb(209, 126, 70); */
+ border-radius: 20px;
+ width: fit-content;
+ padding: 10px;
+ text-align: center;
+ position: absolute;
+ top: 89%;
+ left: 15%;
+ transform: rotate(-15deg);
+
+}
+#div_github{
+ /* border: 3px solid rgb(209, 126, 70); */
+ border-radius: 20px;
+ width: fit-content;
+ padding: 10px;
+ text-align: center;
+ position: absolute;
+ top: 48%;
+ left: 67%;
+ transform: rotate(-7deg);
+
+}
+#div_linkedin{
+ /* border: 3px solid rgb(209, 126, 70); */
+ border-radius: 20px;
+ width: fit-content;
+ padding: 10px;
+ text-align: center;
+ position: absolute;
+ top: 87%;
+ left: 75%;
+ transform: rotate(9deg);
+}
+#div_pinterest{
+    /* border: 3px solid rgb(209, 126, 70); */
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: 115%;
+    left: 64%;
+    transform: rotate(-10deg);
+}
+#div_whatsapp{
+    /* border: 3px solid rgb(209, 126, 70); */
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: 118%;
+    left: 24%;
+    transform: rotate(2deg);
+}
+
+/* --- CV DOWNLOAD */
+
+#download_cv{
+    font-family: 'plus jakarta sans';
+    font-size: 2em;
+    position: absolute;
+    left: 42%;
+    top: 119%;
+    background-color: rgba(1, 1, 1, 0.634);
+    padding: 15px;
+    border: 3px solid rgb(157, 71, 14);
+    border-radius: 20em;
+    
+}
+#download_cv a{
+    text-decoration: none;
+}
+
+#download_cv a:active{
+    text-decoration: none;
+    color: brown;
+}
+
+#download_cv a:visited{
+    text-decoration: none;
+    color: rgba(240, 96, 0, 0.788);
+}
+
+#download_cv a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+}
+
+/* ------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+---------------------------------------- SCREEN MAX 1099px -------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1099px){
+
+    body{
+        background-color: rgb(0, 0, 0, 0.94);
+        font-family: 'dosis',sans-serif;
+    }
+    
+    #navbar{
+        position: fixed;
+        background-color: rgba(240, 96, 0, 0.788);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        /* border: 2px solid red; */
+        /* width: fit-content; */
+        animation-name: scale-up-center;
+        animation-duration: 1s;
+        z-index: 1;
+        top: 0;
+        left: 50%;
+        margin-left: -160px;
+    }
+    
+    
+    ul {
+        font-family: 'dosis';
+        font-size: 1.7em;
+        list-style-type: none;
+        /* border-radius: 30px; */
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        text-align: center;
+        /* background-color: #333; */
+        
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: rgba(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: rgba(0, 0, 0);
+        opacity: 0.7;
+        color: rgb(209, 126, 70);
+    }
+    
+    #a_home{
+        border-bottom-left-radius: 18px;
+    }
+    
+    #a_aboutme{
+        background-color: rgb(0, 0, 0, 0.9);
+        color: white;
+        /* width: 90%; */
+        border-bottom-right-radius: 18px;
+    }
+    #a_aboutme:hover{
+        color: black;
+        color: white;
+        border-bottom-right-radius: 20px;
+    }
+    
+    #foto_cv{
+        width: 23em;
+        position: absolute;
+        top: 38%;
+        left: 35%;
+        border-radius: 100px;
+    }
+    
+    #text_style{
+        color: rgba(240, 96, 0, 0.788);
+        font-family: 'monoton';
+        font-size: 7vw;
+        white-space: nowrap;
+        position: absolute;
+        left: 10%;
+        top: 7%;
+    }
+    #text2_style{
+        color: rgba(240, 96, 0, 0.788);
+        font-family: 'plus jakarta sans';
+        font-size: 3.7vw;
+        white-space: nowrap;
+        position: absolute;
+        left: 37.5%;
+        top: 29%;
+    }
+    
+    /* ICONE SOCIAL */
+    .fa-google {
+        /* background: #cb2027; */
+        color: rgba(240, 96, 0, 0.788);
+        text-decoration: none;
+        font-size: 15em;
+    }
+    
+    .fa-instagram {
+        /* background: #125688; */
+        color: rgba(240, 96, 0, 0.788);
+        text-decoration: none;
+        font-size: 10em;
+    
+    }
+    
+    .fa-linkedin {
+        /* background: #007bb5; */
+        color: rgba(240, 96, 0, 0.788);
+        text-decoration: none;
+        font-size: 11em;
+    
+    }
+    
+    .fa-pinterest {
+        /* border: 3px solid rgb(209, 126, 70); */
+        color: rgba(240, 96, 0, 0.788);
+        text-decoration: none;
+        font-size: 12em;
+    
+    }
+    
+    .fa-github{
+        color: rgba(240, 96, 0, 0.788);
+        text-decoration: none;
+        font-size: 15em;
+    
+    }
+    .fa-whatsapp{
+        color: rgba(240, 96, 0, 0.788);
+        text-decoration: none;
+        font-size: 12em;
+    
+    }
+      
+    .fa-instagram:hover{
+        opacity: 0.5;
+    }
+    .fa-linkedin:hover{
+        opacity: 0.5;
+    }
+    .fa-github:hover{
+        opacity: 0.5;
+    }
+    .fa-pinterest:hover{
+        opacity: 0.5;
+    }
+    .fa-google:hover{
+        opacity: 0.5;
+    }
+    .fa-whatsapp:hover{
+        opacity: 0.5;
+    }
+    
+    
+    /* ----- BOX SOCIAL ----- */    
+    
+    #div_gmail{
+     /* border: 3px solid rgb(209, 126, 70); */
+     border-radius: 20px;
+     width: fit-content;
+     padding: 10px;
+     text-align: center;
+     position: absolute;
+     top: 44%;
+     left: 13.8%;
+     transform: rotate(10deg);
+    
+    }
+    #div_instagram{
+     /* border: 3px solid rgb(209, 126, 70); */
+     border-radius: 20px;
+     width: fit-content;
+     padding: 10px;
+     text-align: center;
+     position: absolute;
+     top: 89%;
+     left: 13.3%;
+     transform: rotate(-15deg);
+    
+    }
+    #div_github{
+     /* border: 3px solid rgb(209, 126, 70); */
+     border-radius: 20px;
+     width: fit-content;
+     padding: 10px;
+     text-align: center;
+     position: absolute;
+     top: 46%;
+     left: 69%;
+     transform: rotate(-7deg);
+    
+    }
+    #div_linkedin{
+     /* border: 3px solid rgb(209, 126, 70); */
+     border-radius: 20px;
+     width: fit-content;
+     padding: 10px;
+     text-align: center;
+     position: absolute;
+     top: 87%;
+     left: 78%;
+     transform: rotate(9deg);
+    }
+    #div_pinterest{
+        /* border: 3px solid rgb(209, 126, 70); */
+        border-radius: 20px;
+        width: fit-content;
+        padding: 10px;
+        text-align: center;
+        position: absolute;
+        top: 119%;
+        left: 66%;
+        transform: rotate(-10deg);
+    }
+    #div_whatsapp{
+        /* border: 3px solid rgb(209, 126, 70); */
+        border-radius: 20px;
+        width: fit-content;
+        padding: 10px;
+        text-align: center;
+        position: absolute;
+        top: 121%;
+        left: 23%;
+        transform: rotate(2deg);
+    }
+    
+    /* --- CV DOWNLOAD */
+    
+    #download_cv{
+        font-family: 'plus jakarta sans';
+        font-size: 2em;
+        position: absolute;
+        left: 42%;
+        top: 119%;
+        background-color: rgba(1, 1, 1, 0.634);
+        padding: 15px;
+        border: 3px solid rgb(157, 71, 14);
+        border-radius: 20em;
+        
+    }
+    #download_cv a{
+        text-decoration: none;
+    }
+    
+    #download_cv a:active{
+        text-decoration: none;
+        color: brown;
+    }
+    
+    #download_cv a:visited{
+        text-decoration: none;
+        color: rgba(240, 96, 0, 0.788);
+    }
+    
+    #download_cv a:hover{
+        text-decoration: none;
+        opacity: 0.7;
+    }
+
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+---------------------------------------- SCREEN MAX 700px -------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 850px){
+
+    body{
+        background-color: rgb(0, 0, 0, 0.94);
+        font-family: 'dosis',sans-serif;
+    }
+    
+    #navbar{
+        position: fixed;
+        background-color: rgba(240, 96, 0, 0.788);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        /* border: 2px solid red; */
+        /* width: fit-content; */
+        animation-name: scale-up-center;
+        animation-duration: 1s;
+        z-index: 1;
+        top: 0;
+        left: 50%;
+        margin-left: -160px;
+    }
+    
+    
+    ul {
+        font-family: 'dosis';
+        font-size: 1.7em;
+        list-style-type: none;
+        /* border-radius: 30px; */
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        text-align: center;
+        /* background-color: #333; */
+        
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: rgba(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: rgba(0, 0, 0);
+        opacity: 0.7;
+        color: rgb(209, 126, 70);
+    }
+    
+    #a_home{
+        border-bottom-left-radius: 18px;
+    }
+    
+    #a_aboutme{
+        background-color: rgb(0, 0, 0, 0.9);
+        color: white;
+        /* width: 90%; */
+        border-bottom-right-radius: 18px;
+    }
+    #a_aboutme:hover{
+        color: black;
+        color: white;
+        border-bottom-right-radius: 20px;
+    }
+
+    /* ------- IMG ABOUT ME ------- */
+    #img_aboutme{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #foto_cv{
+        width: 12em;
+        margin-left: auto;
+        margin-right:auto;
+        border-radius: 100px;
+    }
+    /* --------------------------- */
+    #text_style{
+        color: rgba(240, 96, 0, 0.788);
+        font-family: 'monoton';
+        font-size: 7.5vw;
+        white-space: nowrap;
+        position: absolute;
+        /* left: 10%; */
+        top: 7%;
+    }
+    
+    #text2_style{
+        color: rgba(240, 96, 0, 0.788);
+        font-family: 'plus jakarta sans';
+        font-size: 5.5vw;
+        white-space: nowrap;
+        /* text-align: center; */
+        position: absolute;
+        left: 32.5%;
+        top: 21%;
+    }
+    
+    /* ICONE SOCIAL */
+    .fa-google {
+        /* background: #cb2027; */
+        color: rgba(240, 96, 0, 0.788);
+        text-decoration: none;
+        font-size: 8em;
+    }
+    
+    .fa-instagram {
+        /* background: #125688; */
+        color: rgba(240, 96, 0, 0.788);
+        text-decoration: none;
+        font-size: 6em;
+    
+    }
+    
+    .fa-linkedin {
+        /* background: #007bb5; */
+        color: rgba(240, 96, 0, 0.788);
+        text-decoration: none;
+        font-size: 6em;
+    
+    }
+    
+    .fa-pinterest {
+        /* border: 3px solid rgb(209, 126, 70); */
+        color: rgba(240, 96, 0, 0.788);
+        text-decoration: none;
+        font-size: 7em;
+    
+    }
+    
+    .fa-github{
+        color: rgba(240, 96, 0, 0.788);
+        text-decoration: none;
+        font-size: 8em;
+    
+    }
+    .fa-whatsapp{
+        color: rgba(240, 96, 0, 0.788);
+        text-decoration: none;
+        font-size: 7em;
+    
+    }
+      
+    .fa-instagram:hover{
+        opacity: 0.5;
+    }
+    .fa-linkedin:hover{
+        opacity: 0.5;
+    }
+    .fa-github:hover{
+        opacity: 0.5;
+    }
+    .fa-pinterest:hover{
+        opacity: 0.5;
+    }
+    .fa-google:hover{
+        opacity: 0.5;
+    }
+    .fa-whatsapp:hover{
+        opacity: 0.5;
+    }
+    
+    
+    /* ----- BOX SOCIAL ----- */    
+    
+    #div_gmail{
+     /* border: 3px solid rgb(209, 126, 70); */
+     border-radius: 20px;
+     width: fit-content;
+     padding: 10px;
+     text-align: center;
+     position: absolute;
+     top: 30%;
+     left: 5%;
+     transform: rotate(10deg);
+    
+    }
+    #div_instagram{
+     /* border: 3px solid rgb(209, 126, 70); */
+     border-radius: 20px;
+     width: fit-content;
+     padding: 10px;
+     text-align: center;
+     position: absolute;
+     top: 52%;
+     left: 7%;
+     transform: rotate(-15deg);
+    
+    }
+    #div_github{
+     /* border: 3px solid rgb(209, 126, 70); */
+     border-radius: 20px;
+     width: fit-content;
+     padding: 10px;
+     text-align: center;
+     position: absolute;
+     top: 31%;
+     left: 69%;
+     transform: rotate(-7deg);
+    
+    }
+    #div_linkedin{
+     /* border: 3px solid rgb(209, 126, 70); */
+     border-radius: 20px;
+     width: fit-content;
+     padding: 10px;
+     text-align: center;
+     position: absolute;
+     top: 52%;
+     left: 78%;
+     transform: rotate(9deg);
+    }
+    #div_pinterest{
+        /* border: 3px solid rgb(209, 126, 70); */
+        border-radius: 20px;
+        width: fit-content;
+        padding: 10px;
+        text-align: center;
+        position: absolute;
+        top: 68%;
+        left: 74%;
+        transform: rotate(10deg);
+    }
+    #div_whatsapp{
+        /* border: 3px solid rgb(209, 126, 70); */
+        border-radius: 20px;
+        width: fit-content;
+        padding: 10px;
+        text-align: center;
+        position: absolute;
+        top: 68%;
+        left: 16%;
+        transform: rotate(2deg);
+    }
+    
+    /* --- CV DOWNLOAD */
+    
+    #download_cv{
+        font-family: 'plus jakarta sans';
+        font-size: 1em;
+        top: 78%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(1, 1, 1, 0.634);
+        padding: 15px;
+        border: 3px solid rgb(157, 71, 14);
+        border-radius: 20em;
+        
+    }
+    #download_cv a{
+        text-decoration: none;
+    }
+    
+    #download_cv a:active{
+        text-decoration: none;
+        color: brown;
+    }
+    
+    #download_cv a:visited{
+        text-decoration: none;
+        color: rgba(240, 96, 0, 0.788);
+    }
+    
+    #download_cv a:hover{
+        text-decoration: none;
+        opacity: 0.7;
+    }
+
+    
+
+}

@@ -1,0 +1,649 @@
+/* ------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+---------------------------------------- SCREEN MIN 1100px -------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width:1100px){
+
+
+
+body{
+    background-image: url(images_portfolio/sfondoNero.png);
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+}
+
+/* NOME E COGNOME */
+#firstName{
+    font-family: 'Monoton',sans-serif;
+    color: white;
+    font-size: 8vw;
+    /* border: 2px solid red; */
+    width: fit-content;
+    position: absolute;
+    top: 34.7%;
+    left: 13%;
+    transform: rotate(-44.9deg);
+    text-shadow: 0px 0px 13px rgb(12, 12, 12);
+    animation-name: example;
+    animation-duration: 3s;
+}
+#lastName{
+    font-family: 'Monoton',sans-serif;
+    color: white;
+    font-size: 7.2vw;
+    /* border: 2px solid red; */
+    width: fit-content;
+    position: absolute;
+    left: 39%;
+    top: 64%;
+    transform: rotate(44.6deg);
+    animation-name: example;
+    animation-duration: 4.5s;
+}
+
+p{
+    font-family: 'monoton';
+    color: rgba(255, 255, 255, 0.684);
+    position: absolute;
+    font-size: 3.5vw;
+    bottom: 82%;
+    left: 73%;
+}
+
+/* ----- NAVBAR ----- */
+#navbar{
+    position: absolute;
+    /* border: 2px solid red; */
+    left: 55%;
+    top: 50%;
+    /* width: 35%; */
+    animation-name: scale-up-center;
+    animation-duration: 1s;
+}
+
+
+ul {
+    font-family: 'dosis';
+    font-size: 2.1vw;
+    list-style-type: none;
+    /* border-radius: 30px; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    animation-name: scale-up-center;
+    animation-duration: 1s;
+    /* background-color: #333; */
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgba(255, 255, 255, 0.684);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 0, 0.541);
+    opacity: 0.8;
+    color: rgb(129, 42, 31);
+    /* color: black; */
+    transform: scale(1.1);
+  transform-origin: center;
+  transition:transform .5s;
+    
+  }
+
+  li a:active{
+    background-color: rgba(206, 56, 36);
+  }
+
+  /* COLORI LINK */
+
+  #a_works{
+    color: rgba(48, 142, 137);
+  }
+  #a_aboutme{
+    color: rgba(209, 126, 70);
+  }
+  #a_contacts{
+    color: rgba(48, 142, 137);
+  }
+
+  /* ---------- ANIMAZIONI ---------- */
+
+  /* ANIMAZIONE NAVBAR */
+  .scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.2);
+              transform: scale(0.2);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
+  /* STOP ANIMAZIONE NAVBAR */
+
+  /* ----------- ANIMAZIONE NOME -----------*/
+  
+  /* STOP ANIMAZIONE NOME */
+
+
+  @keyframes example {
+    from {color: rgba(0, 0, 0, 0);}
+    to {color: white;}
+  }
+
+}
+
+/* ------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+---------------------------------------- SCREEN MAX 1100px -------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width:1100px){
+
+
+
+  body{
+      background-image: url(images_portfolio/sfondoNero.png);
+      background-repeat: repeat;
+      background-size: 120%;
+      /* background-position: 1000px; */
+      color: white;
+  }
+  
+  /* NOME E COGNOME */
+  #firstName{
+      font-family: 'Monoton',sans-serif;
+      color: white;
+      font-size: 8vw;
+      /* border: 2px solid red; */
+      width: fit-content;
+      position: absolute;
+      top: 38%;
+      left: 23%;
+      transform: rotate(-44.9deg);
+      text-shadow: 0px 0px 13px rgb(12, 12, 12);
+      animation-name: dissolvenza;
+      animation-duration: 3s;
+  }
+  #lastName{
+      font-family: 'Monoton',sans-serif;
+      color: white;
+      font-size: 7.2vw;
+      /* border: 2px solid red; */
+      width: fit-content;
+      position: absolute;
+      left: 48%;
+      top: 63%;
+      transform: rotate(44.6deg);
+      animation-name: dissolvenza;
+      animation-duration: 4.5s;
+  }
+  
+  p{
+      font-family: 'monoton';
+      color: rgba(255, 255, 255, 0.684);
+      position: absolute;
+      font-size: 3.5vw;
+      bottom: 82%;
+      left: 73%;
+  }
+  
+  /* ----- NAVBAR ----- */
+  #navbar{
+      position: absolute;
+      /* border: 2px solid red; */
+      left: 64%;
+      top: 50%;
+      /* width: 35%; */
+      animation-name: scale-up-center;
+      animation-duration: 1s;
+  }
+  
+  
+  ul {
+      font-family: 'dosis';
+      font-size: 2.1vw;
+      list-style-type: none;
+      /* border-radius: 30px; */
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      animation-name: scale-up-center;
+      animation-duration: 1s;
+      /* background-color: #333; */
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: rgba(255, 255, 255, 0.684);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      border-radius: 5px;
+  }
+  
+  li a:hover {
+      background-color: rgba(0, 0, 0, 0.541);
+      opacity: 0.8;
+      color: rgb(129, 42, 31);
+      /* color: black; */
+      transform: scale(1.1);
+    transform-origin: center;
+    transition:transform .5s;
+      
+    }
+  
+    li a:active{
+      background-color: rgba(206, 56, 36);
+    }
+  
+    /* COLORI LINK */
+  
+    #a_works{
+      color: rgba(48, 142, 137);
+    }
+    #a_aboutme{
+      color: rgba(209, 126, 70);
+    }
+    #a_contacts{
+      color: rgba(48, 142, 137);
+    }
+  
+    /* ---------- ANIMAZIONI ---------- */
+  
+    /* ANIMAZIONE NAVBAR */
+    .scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+  @-webkit-keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+      }
+      100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+    }
+    @keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(0.2);
+                transform: scale(0.2);
+      }
+      100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+    }
+  
+    /* STOP ANIMAZIONE NAVBAR */
+  
+    /* ----------- ANIMAZIONE NOME -----------*/
+    
+    /* STOP ANIMAZIONE NOME */
+  
+  
+    @keyframes dissolvenza {
+      from {color: rgba(0, 0, 0, 0);}
+      to {color: white;}
+    }
+  
+  }
+
+  /* ------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+---------------------------------------- SCREEN MAX 800px -------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width:800px){
+
+
+
+  body{
+      /* background-image: url(images_portfolio/sfondoNero.png); */
+      background-repeat: no-repeat;
+      background-size: 135%;
+      /* background-position: 1000px; */
+      color: white;
+  }
+  
+  /* NOME E COGNOME */
+  #firstName{
+      font-family: 'Monoton',sans-serif;
+      color: white;
+      font-size: 8vw;
+      /* border: 2px solid red; */
+      width: fit-content;
+      position: absolute;
+      top: 38%;
+      left: 13%;
+      transform: rotate(-44.9deg);
+      text-shadow: 0px 0px 13px rgb(12, 12, 12);
+      animation-name: dissolvenza;
+      animation-duration: 3s;
+  }
+  #lastName{
+      font-family: 'Monoton',sans-serif;
+      color: white;
+      font-size: 7.2vw;
+      /* border: 2px solid red; */
+      width: fit-content;
+      position: absolute;
+      left: 40%;
+      top: 63%;
+      transform: rotate(44.6deg);
+      animation-name: dissolvenza;
+      animation-duration: 4.5s;
+  }
+  
+  p{
+      font-family: 'monoton';
+      color: rgba(255, 255, 255, 0.684);
+      position: absolute;
+      font-size: 3.5vw;
+      top: 0;
+      left: 3%;
+  }
+  
+  /* ----- NAVBAR ----- */
+  #navbar{
+      position: absolute;
+      /* border: 2px solid red; */
+      left: 66%;
+      top: 35%;
+      /* width: 35%; */
+      animation-name: scale-up-center;
+      animation-duration: 1s;
+  }
+  
+  
+  ul {
+      font-family: 'dosis';
+      font-size: 2.5svw;
+      list-style-type: none;
+      /* border-radius: 30px; */
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      animation-name: scale-up-center;
+      animation-duration: 1s;
+      /* background-color: #333; */
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: rgba(255, 255, 255, 0.684);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      border-radius: 5px;
+  }
+  
+  li a:hover {
+      background-color: rgba(0, 0, 0, 0.541);
+      opacity: 0.8;
+      color: rgb(129, 42, 31);
+      /* color: black; */
+      transform: scale(1.1);
+    transform-origin: center;
+    transition:transform .5s;
+      
+    }
+  
+    li a:active{
+      background-color: rgba(206, 56, 36);
+    }
+  
+    /* COLORI LINK */
+  
+    #a_works{
+      color: rgba(48, 142, 137);
+    }
+    #a_aboutme{
+      color: rgba(209, 126, 70);
+    }
+    #a_contacts{
+      color: rgba(48, 142, 137);
+    }
+  
+    /* ---------- ANIMAZIONI ---------- */
+  
+    /* ANIMAZIONE NAVBAR */
+    .scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+  @-webkit-keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+      }
+      100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+    }
+    @keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(0.2);
+                transform: scale(0.2);
+      }
+      100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+    }
+  
+    /* STOP ANIMAZIONE NAVBAR */
+  
+    /* ----------- ANIMAZIONE NOME -----------*/
+    
+    /* STOP ANIMAZIONE NOME */
+  
+  
+    @keyframes dissolvenza {
+      from {color: rgba(0, 0, 0, 0);}
+      to {color: white;}
+    }
+  
+  }
+  /* ------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+---------------------------------------- SCREEN MAX 800px -------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width:740px){
+
+
+
+  body{
+      /* background-image: url(images_portfolio/sfondoNero.png); */
+      background-repeat: repeat;
+      background-size: 220%;
+      /* background-position: 1000px; */
+      color: white;
+  }
+  
+  /* NOME E COGNOME */
+  #firstName{
+      font-family: 'Monoton',sans-serif;
+      color: white;
+      font-size: 10.5vw;
+      /* border: 2px solid red; */
+      width: fit-content;
+      position: absolute;
+      top: 22%;
+      left: 16%;
+      transform: rotate(-44.9deg);
+      text-shadow: 0px 0px 13px rgb(12, 12, 12);
+      animation-name: dissolvenza;
+      animation-duration: 3s;
+  }
+  #lastName{
+      font-family: 'Monoton',sans-serif;
+      color: white;
+      font-size: 10.5vw;
+      /* border: 2px solid red; */
+      width: fit-content;
+      position: absolute;
+      left: 47%;
+      top: 28%;
+      transform: rotate(-44.6deg);
+      animation-name: dissolvenza;
+      animation-duration: 4.5s;
+  }
+  
+  p{
+      font-family: 'monoton';
+      color: rgba(255, 255, 255, 0.684);
+      position: absolute;
+      font-size: 3.5vw;
+      top: 0;
+      left: 3%;
+  }
+  
+  /* ----- NAVBAR ----- */
+  #navbar{
+      position: absolute;
+      /* border: 2px solid red; */
+      left: 18%;
+      top: 60%;
+      /* width: 35%; */
+      animation-name: scale-up-center;
+      animation-duration: 1s;
+  }
+  
+  
+  ul {
+      font-family: 'dosis';
+      font-size: 5.8svw;
+      list-style-type: none;
+      /* border-radius: 30px; */
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      animation-name: scale-up-center;
+      animation-duration: 1s;
+      /* background-color: #333; */
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: rgba(255, 255, 255, 0.684);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      border-radius: 5px;
+  }
+  
+  li a:hover {
+      background-color: rgba(0, 0, 0, 0.541);
+      opacity: 0.8;
+      color: rgb(129, 42, 31);
+      /* color: black; */
+      transform: scale(1.1);
+    transform-origin: center;
+    transition:transform .5s;
+      
+    }
+  
+    li a:active{
+      background-color: rgba(206, 56, 36);
+    }
+  
+    /* COLORI LINK */
+  
+    #a_works{
+      color: rgba(48, 142, 137);
+    }
+    #a_aboutme{
+      color: rgba(209, 126, 70);
+    }
+    #a_contacts{
+      color: rgba(48, 142, 137);
+    }
+  
+    /* ---------- ANIMAZIONI ---------- */
+  
+    /* ANIMAZIONE NAVBAR */
+    .scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+  @-webkit-keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+      }
+      100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+    }
+    @keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(0.2);
+                transform: scale(0.2);
+      }
+      100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+    }
+  
+    /* STOP ANIMAZIONE NAVBAR */
+  
+    /* ----------- ANIMAZIONE NOME -----------*/
+    
+    /* STOP ANIMAZIONE NOME */
+  
+  
+    @keyframes dissolvenza {
+      from {color: rgba(0, 0, 0, 0);}
+      to {color: white;}
+    }
+  
+  }

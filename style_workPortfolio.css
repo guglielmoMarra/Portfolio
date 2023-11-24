@@ -1,0 +1,1751 @@
+
+/* ------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+---------------------------------------- SCREEN MIN 1100px -------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width:1100px) {
+    
+
+
+body{
+    background-color: rgb(0, 0, 0, 0.94);
+    font-family: 'dosis', sans-serif;
+}
+
+#navbar{
+    position: fixed;
+    background-color: rgba(32, 186, 171, 0.888);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* border: 2px solid red; */
+    left: 37.5%;
+    top: 0;
+    animation-name: scale-up-center;
+    animation-duration: 1s;
+    z-index: 1;
+    left: 50%;
+    margin-left: -180px;
+}
+
+
+ul {
+    font-family: 'dosis';
+    font-size: 2em;
+    list-style-type: none;
+    /* border-radius: 30px; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    /* background-color: #333; */
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgba(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 0);
+    opacity: 0.7;
+    color: rgb(32, 186, 171, 0.788);
+}
+
+
+#a_home{
+    border-bottom-left-radius: 20px;
+}
+#a_works{
+    background-color: rgb(0, 0, 0, 0.9);
+    color: white;
+    
+}
+#a_aboutme{
+    border-bottom-right-radius: 20px;
+}
+
+#a_works:hover{
+    color: black;
+    color: white;
+}
+
+
+section {
+    color: rgb(32, 186, 171);
+    font-size: 2em;
+    margin-top: 10%;
+    text-align: center;
+}
+
+
+/* ----- DIV GITHUB ----- */
+
+#div_github{
+    display: flex wrap;
+    flex-flow: column ;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid red; */
+}
+
+#linea_siti{
+    border-color:rgba(16, 115, 105, 0.64);
+    /* border-color: rgba(255, 255, 255, 0.721) ; */
+    border-radius: 50%;
+    width: 70%;
+    border-width: 5px;
+    margin-bottom: 3%;
+}
+
+.titolo_sezione{
+    color: rgb(32, 186, 171);
+    font-size: 4em;
+    font-family: 'Plus Jakarta Sans';
+    text-shadow: 4px 3px  rgba(24, 136, 125, 0.336);
+}
+
+.img_gh{
+    border: 5px inset rgb(32, 186, 171);
+    border-radius: 40px;
+    width: 65%;
+}
+.img_gh:hover{
+    opacity: 0.7;
+}
+
+#div_github a:visited{
+    color: rgba(32, 186, 171);
+}
+#div_github a:hover{
+    color: red;
+    /* color: rgba(32, 186, 171, 0.311); */
+}
+
+/* ----- SITO JOBS ----- */
+#link_jobs{
+    position: relative;
+    color: rgb(32, 186, 171);
+    transform: rotate(-90deg);
+    font-size: 2.3em;
+    right: 34.5%;
+    bottom: 250px;
+}
+
+.text_site{
+    /* border: 2px solid red; */
+    width: 80%;
+    font-size: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(32, 186, 171);
+}
+
+/*----- SITO MEDICO ----- */
+
+
+
+
+/*----- SITO BIBLIOMEDIATECA ----- */
+
+
+
+
+/*----- SITO VIDEOGIOCHI ----- */
+
+
+#img_giochi{
+    border: 5px inset rgb(32, 186, 171);
+    border-radius: 40px;
+    width: 49%;
+}
+#img_giochi:hover{
+    opacity: 0.7;
+}
+
+#linea_footer{
+    width: 75%;
+    border-width: 0.2em;
+    border-color: rgb(32, 186, 171);
+    border-radius: 50%;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+
+/* ----- FOOTER ----- */
+
+#social{
+    font-size: 5em;
+    margin-bottom: 3%;
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.fa-pinterest {
+    /* background: #cb2027; */
+    color: rgb(32, 186, 171);
+    text-decoration: none;
+}
+
+.fa-instagram {
+    /* background: #125688; */
+    color: rgb(32, 186, 171);
+    text-decoration: none;
+}
+
+.fa-linkedin {
+    /* background: #007bb5; */
+    color: rgb(32, 186, 171);
+    text-decoration: none;
+}
+
+.fa-whatsapp {
+    /* background: #27a90d; */
+    color: rgb(32, 186, 171);
+    text-decoration: none;
+}
+
+.fa-github{
+    color: rgb(32, 186, 171);
+    text-decoration: none;
+}
+  
+.fa-instagram:hover{
+    opacity: 0.5;
+}
+.fa-linkedin:hover{
+    opacity: 0.5;
+}
+.fa-github:hover{
+    opacity: 0.5;
+}
+.fa-whatsapp:hover{
+    opacity: 0.5;
+}
+.fa-pinterest:hover{
+    opacity: 0.5;
+}
+
+/* ----- FIGURE ----- */
+#circle1 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 20%;
+    top: -80px;
+    left: 5px;
+    background-color: rgba(32, 186, 171);
+    shape-outside: circle();
+    clip-path: circle();
+    z-index: 0;
+}
+#circle2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 20%;
+    top: -80px;
+    right: 5px;
+    background-color: rgb(32, 186, 171);
+    shape-outside: circle();
+    clip-path: circle();
+    z-index: -2;
+}
+#circle3 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 15%;
+    top: 80px;
+    left: 115px;
+    background-color: rgb(32, 186, 171, 0.6);
+    shape-outside: circle();
+    clip-path: circle();
+    z-index: 1;
+}
+#circle4 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 15%;
+    top: 80px;
+    right: 115px;
+    background-color: rgb(32, 186, 171,0.6);
+    shape-outside: circle();
+    clip-path: circle();
+    z-index: 1;
+}
+#circle5 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 12%;
+    top: 120px;
+    left: 160px;
+    background-color: rgb(32, 186, 171);
+    shape-outside: circle();
+    clip-path: circle();
+}
+#circle6 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 12%;
+    top: 120px;
+    right: 160px;
+    background-color: rgb(32, 186, 171);
+    shape-outside: circle();
+    clip-path: circle();
+}
+/* BOLLE LATERALI */
+#circle7 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 7%;
+    top: 430px;
+    left: 130px;
+    background-color: rgb(32, 186, 171, 0.7);
+    shape-outside: circle();
+    clip-path: circle();
+}
+#circle8 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 7%;
+    top: 430px;
+    right: 130px;
+    background-color: rgb(32, 186, 171, 0.7);
+    shape-outside: circle();
+    clip-path: circle();
+}
+/* --------------------------------- */
+#circle9 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 7%;
+    top: 1200px;
+    left: 130px;
+    background-color: rgb(32, 186, 171, 0.7);
+    shape-outside: circle();
+    clip-path: circle();
+}
+#circle10 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 7%;
+    top: 1200px;
+    right: 130px;
+    background-color: rgb(32, 186, 171, 0.7);
+    shape-outside: circle();
+    clip-path: circle();
+}
+/* --------------------------------- */
+
+#circle11 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 7%;
+    top: 2000px;
+    left: 130px;
+    background-color: rgb(32, 186, 171, 0.7);
+    shape-outside: circle();
+    clip-path: circle();
+}
+#circle12 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 7%;
+    top: 2000px;
+    right: 130px;
+    background-color: rgb(32, 186, 171, 0.7);
+    shape-outside: circle();
+    clip-path: circle();
+}
+/* --------------------------------- */
+
+#circle13 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 7%;
+    top: 2525px;
+    left: 25px;
+    background-color: rgb(32, 186, 171, 0.7);
+    shape-outside: circle();
+    clip-path: circle();
+}
+#circle14 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 7%;
+    top: 2525px;
+    right: 25px;
+    background-color: rgb(32, 186, 171, 0.7);
+    shape-outside: circle();
+    clip-path: circle();
+}
+/* --------------------------------- */
+
+#circle15 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 7%;
+    top: 3125px;
+    left: 130px;
+    background-color: rgb(32, 186, 171, 0.7);
+    shape-outside: circle();
+    clip-path: circle();
+}
+#circle16 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    width: 7%;
+    top: 3125px;
+    right: 130px;
+    background-color: rgb(32, 186, 171, 0.7);
+    shape-outside: circle();
+    clip-path: circle();
+}
+/* --------------------------------- */
+
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+---------------------------------------- SCREEN MAX 1100pp -------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width:1100px) {
+    
+
+
+    body{
+        background-color: rgb(0, 0, 0, 0.94);
+        font-family: 'dosis', sans-serif;
+    }
+    
+    #navbar{
+        position: fixed;
+        background-color: rgba(32, 186, 171, 0.888);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        /* border: 2px solid red; */
+        left: 37.5%;
+        top: 0;
+        animation-name: scale-up-center;
+        animation-duration: 1s;
+        z-index: 1;
+        left: 50%;
+        margin-left: -160px;
+    }
+    
+    
+    ul {
+        font-family: 'dosis';
+        font-size: 1.7em;
+        list-style-type: none;
+        /* border-radius: 30px; */
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        text-align: center;
+        /* background-color: #333; */
+        
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: rgba(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: rgba(0, 0, 0);
+        opacity: 0.7;
+        color: rgb(32, 186, 171, 0.788);
+    }
+    
+    
+    #a_home{
+        border-bottom-left-radius: 20px;
+    }
+    #a_works{
+        background-color: rgb(0, 0, 0, 0.9);
+        color: white;
+        
+    }
+    #a_aboutme{
+        border-bottom-right-radius: 20px;
+    }
+    
+    #a_works:hover{
+        color: black;
+        color: white;
+    }
+    
+    
+    section {
+        color: rgb(32, 186, 171);
+        font-size: 2em;
+        margin-top: 10%;
+        text-align: center;
+    }
+    
+    
+    /* ----- DIV GITHUB ----- */
+    
+    #div_github{
+        display: flex wrap;
+        flex-flow: column ;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 2px solid red; */
+    }
+    
+    #linea_siti{
+        border-color:rgba(16, 115, 105, 0.64);
+        /* border-color: rgba(255, 255, 255, 0.721) ; */
+        border-radius: 50%;
+        width: 70%;
+        border-width: 5px;
+        margin-bottom: 3%;
+    }
+    
+    .titolo_sezione{
+        color: rgb(32, 186, 171);
+        font-size: 4em;
+        font-family: 'Plus Jakarta Sans';
+        text-shadow: 4px 3px  rgba(24, 136, 125, 0.336);
+    }
+    
+    .img_gh{
+        border: 5px inset rgb(32, 186, 171);
+        border-radius: 40px;
+        width: 65%;
+    }
+    .img_gh:hover{
+        opacity: 0.7;
+    }
+    
+    #div_github a:visited{
+        color: rgba(32, 186, 171);
+    }
+    #div_github a:hover{
+        color: red;
+        /* color: rgba(32, 186, 171, 0.311); */
+    }
+    
+    /* ----- SITO JOBS ----- */
+    #link_jobs{
+        position: relative;
+        color: rgb(32, 186, 171);
+        transform: rotate(-90deg);
+        font-size: 2.3em;
+        right: 34.5%;
+        bottom: 250px;
+    }
+    
+    .text_site{
+        /* border: 2px solid red; */
+        width: 80%;
+        font-size: 1.3em;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(32, 186, 171);
+    }
+    
+    /*----- SITO MEDICO ----- */
+    
+    
+    
+    
+    /*----- SITO BIBLIOMEDIATECA ----- */
+    
+    
+    
+    
+    /*----- SITO VIDEOGIOCHI ----- */
+    
+    
+    #img_giochi{
+        border: 5px inset rgb(32, 186, 171);
+        border-radius: 40px;
+        width: 49%;
+    }
+    #img_giochi:hover{
+        opacity: 0.7;
+    }
+    
+    #linea_footer{
+        width: 75%;
+        border-width: 0.2em;
+        border-color: rgb(32, 186, 171);
+        margin-bottom: 2%;
+        margin-top: 5%;
+    }
+    
+    /* ----- FOOTER ----- */
+    
+    #social{
+        font-size: 5em;
+        margin-bottom: 3%;
+        text-align: center;
+        display: flex;
+        justify-content:space-evenly;
+    }
+    
+    .fa-pinterest {
+        /* background: #cb2027; */
+        color: rgb(32, 186, 171);
+        text-decoration: none;
+    }
+    
+    .fa-instagram {
+        /* background: #125688; */
+        color: rgb(32, 186, 171);
+        text-decoration: none;
+    }
+    
+    .fa-linkedin {
+        /* background: #007bb5; */
+        color: rgb(32, 186, 171);
+        text-decoration: none;
+    }
+    
+    .fa-whatsapp {
+        /* background: #27a90d; */
+        color: rgb(32, 186, 171);
+        text-decoration: none;
+    }
+    
+    .fa-github{
+        color: rgb(32, 186, 171);
+        text-decoration: none;
+    }
+      
+    .fa-instagram:hover{
+        opacity: 0.5;
+    }
+    .fa-linkedin:hover{
+        opacity: 0.5;
+    }
+    .fa-github:hover{
+        opacity: 0.5;
+    }
+    .fa-whatsapp:hover{
+        opacity: 0.5;
+    }
+    .fa-pinterest:hover{
+        opacity: 0.5;
+    }
+    
+    /* ----- FIGURE ----- */
+    #circle1 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 20%;
+        top: -80px;
+        left: 0px;
+        background-color: rgba(32, 186, 171);
+        shape-outside: circle();
+        clip-path: circle();
+        z-index: 0;
+    }
+    #circle2 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 20%;
+        top: -80px;
+        right: 0px;
+        background-color: rgb(32, 186, 171);
+        shape-outside: circle();
+        clip-path: circle();
+        z-index: -2;
+    }
+    #circle3 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 14%;
+        top: 30px;
+        left: 90px;
+        background-color: rgb(32, 186, 171, 0.6);
+        shape-outside: circle();
+        clip-path: circle();
+        z-index: 1;
+    }
+    #circle4 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 14%;
+        top: 30px;
+        right: 90px;
+        background-color: rgb(32, 186, 171,0.6);
+        shape-outside: circle();
+        clip-path: circle();
+        z-index: 1;
+    }
+    #circle5 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 11%;
+        top: 90px;
+        left: 170px;
+        background-color: rgb(32, 186, 171);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    #circle6 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 11%;
+        top: 90px;
+        right: 170px;
+        background-color: rgb(32, 186, 171);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    /* BOLLE LATERALI */
+    #circle7 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 330px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    #circle8 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 330px;
+        right: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    /* --------------------------------- */
+    #circle9 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 1070px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    #circle10 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 1070px;
+        right: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    /* --------------------------------- */
+    
+    #circle11 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 1780px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    #circle12 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 1780px;
+        right: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    /* --------------------------------- */
+    
+    #circle13 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 2325px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    #circle14 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 2325px;
+        right: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    /* --------------------------------- */
+    
+    #circle15 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 2925px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    #circle16 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 2925px;
+        right: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    /* --------------------------------- */
+    
+    
+    }
+
+
+    /* ------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+---------------------------------------- SCREEN MAX 1100pp -------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width:915px) {
+    
+
+
+    body{
+        background-color: rgb(0, 0, 0, 0.94);
+        font-family: 'dosis', sans-serif;
+    }
+    
+    #navbar{
+        position: fixed;
+        background-color: rgba(32, 186, 171, 0.888);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        /* border: 2px solid red; */
+        left: 37.5%;
+        top: 0;
+        animation-name: scale-up-center;
+        animation-duration: 1s;
+        z-index: 1;
+        left: 50%;
+        margin-left: -160px;
+    }
+    
+    
+    ul {
+        font-family: 'dosis';
+        font-size: 1.7em;
+        list-style-type: none;
+        /* border-radius: 30px; */
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        text-align: center;
+        /* background-color: #333; */
+        
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: rgba(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: rgba(0, 0, 0);
+        opacity: 0.7;
+        color: rgb(32, 186, 171, 0.788);
+    }
+    
+    
+    #a_home{
+        border-bottom-left-radius: 20px;
+    }
+    #a_works{
+        background-color: rgb(0, 0, 0, 0.9);
+        color: white;
+        
+    }
+    #a_aboutme{
+        border-bottom-right-radius: 20px;
+    }
+    
+    #a_works:hover{
+        color: black;
+        color: white;
+    }
+    
+    
+    section {
+        color: rgb(32, 186, 171);
+        font-size: 2em;
+        margin-top: 10%;
+        text-align: center;
+    }
+    
+    
+    /* ----- DIV GITHUB ----- */
+    
+    #div_github{
+        display: flex wrap;
+        flex-flow: column ;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 2px solid red; */
+    }
+    
+    #linea_siti{
+        border-color:rgba(16, 115, 105, 0.64);
+        /* border-color: rgba(255, 255, 255, 0.721) ; */
+        border-radius: 50%;
+        width: 70%;
+        border-width: 5px;
+        margin-bottom: 3%;
+    }
+    
+    .titolo_sezione{
+        color: rgb(32, 186, 171);
+        font-size: 4em;
+        font-family: 'Plus Jakarta Sans';
+        text-shadow: 4px 3px  rgba(24, 136, 125, 0.336);
+    }
+    
+    .img_gh{
+        border: 5px inset rgb(32, 186, 171);
+        border-radius: 40px;
+        width: 65%;
+    }
+    .img_gh:hover{
+        opacity: 0.7;
+    }
+    
+    #div_github a:visited{
+        color: rgba(32, 186, 171);
+    }
+    #div_github a:hover{
+        color: red;
+        /* color: rgba(32, 186, 171, 0.311); */
+    }
+    
+    /* ----- SITO JOBS ----- */
+    #link_jobs{
+        position: relative;
+        color: rgb(32, 186, 171);
+        transform: rotate(-90deg);
+        font-size: 2.3em;
+        right: 34.5%;
+        bottom: 250px;
+    }
+    
+    .text_site{
+        /* border: 2px solid red; */
+        width: 80%;
+        font-size: 1.3em;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(32, 186, 171);
+    }
+    
+    /*----- SITO MEDICO ----- */
+    
+    
+    
+    
+    /*----- SITO BIBLIOMEDIATECA ----- */
+    
+    
+    
+    
+    /*----- SITO VIDEOGIOCHI ----- */
+    
+    
+    #img_giochi{
+        border: 5px inset rgb(32, 186, 171);
+        border-radius: 40px;
+        width: 49%;
+    }
+    #img_giochi:hover{
+        opacity: 0.7;
+    }
+    
+    #linea_footer{
+        width: 75%;
+        border-width: 0.2em;
+        border-color: rgb(32, 186, 171);
+        margin-bottom: 2%;
+        margin-top: 5%;
+    }
+    
+    /* ----- FOOTER ----- */
+    
+    #social{
+        font-size: 5em;
+        margin-bottom: 3%;
+        text-align: center;
+        display: flex;
+        justify-content:space-evenly;
+    }
+    
+    .fa-pinterest {
+        /* background: #cb2027; */
+        color: rgb(32, 186, 171);
+        text-decoration: none;
+    }
+    
+    .fa-instagram {
+        /* background: #125688; */
+        color: rgb(32, 186, 171);
+        text-decoration: none;
+    }
+    
+    .fa-linkedin {
+        /* background: #007bb5; */
+        color: rgb(32, 186, 171);
+        text-decoration: none;
+    }
+    
+    .fa-whatsapp {
+        /* background: #27a90d; */
+        color: rgb(32, 186, 171);
+        text-decoration: none;
+    }
+    
+    .fa-github{
+        color: rgb(32, 186, 171);
+        text-decoration: none;
+    }
+      
+    .fa-instagram:hover{
+        opacity: 0.5;
+    }
+    .fa-linkedin:hover{
+        opacity: 0.5;
+    }
+    .fa-github:hover{
+        opacity: 0.5;
+    }
+    .fa-whatsapp:hover{
+        opacity: 0.5;
+    }
+    .fa-pinterest:hover{
+        opacity: 0.5;
+    }
+    
+    /* ----- FIGURE ----- */
+    #circle1 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 17%;
+        top: -80px;
+        left: 0px;
+        background-color: rgba(32, 186, 171);
+        shape-outside: circle();
+        clip-path: circle();
+        z-index: 0;
+    }
+    #circle2 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 17%;
+        top: -80px;
+        right: 0px;
+        background-color: rgb(32, 186, 171);
+        shape-outside: circle();
+        clip-path: circle();
+        z-index: -2;
+    }
+    #circle3 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 11%;
+        top: 8px;
+        left: 70px;
+        background-color: rgb(32, 186, 171, 0.6);
+        shape-outside: circle();
+        clip-path: circle();
+        z-index: 1;
+    }
+    #circle4 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 11%;
+        top: 8px;
+        right: 70px;
+        background-color: rgb(32, 186, 171,0.6);
+        shape-outside: circle();
+        clip-path: circle();
+        z-index: 1;
+    }
+    #circle5 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 8%;
+        top: 53px;
+        left: 130px;
+        background-color: rgb(32, 186, 171);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    #circle6 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 8%;
+        top: 53px;
+        right: 130px;
+        background-color: rgb(32, 186, 171);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    /* BOLLE LATERALI */
+    #circle7 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 330px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    #circle8 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 330px;
+        right: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    /* --------------------------------- */
+    #circle9 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 1070px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    #circle10 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 1070px;
+        right: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    /* --------------------------------- */
+    
+    #circle11 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 1780px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    #circle12 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 1780px;
+        right: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    /* --------------------------------- */
+    
+    #circle13 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 2325px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    #circle14 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 2325px;
+        right: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display:none;
+    }
+    /* --------------------------------- */
+    
+    #circle15 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 2925px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    #circle16 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 2925px;
+        right: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    /* --------------------------------- */
+    
+    
+    }
+
+
+     /* ------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+---------------------------------------- SCREEN MAX 600pp -------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width:600px) {
+    
+
+
+    body{
+        background-color: rgb(0, 0, 0, 0.94);
+        font-family: 'dosis', sans-serif;
+    }
+    
+    #navbar{
+        position: fixed;
+        background-color: rgba(32, 186, 171, 0.888);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        /* border: 2px solid red; */
+        left: 37.5%;
+        top: 0;
+        animation-name: scale-up-center;
+        animation-duration: 1s;
+        z-index: 1;
+        left: 50%;
+        margin-left: -160px;
+    }
+    
+    
+    ul {
+        font-family: 'dosis';
+        font-size: 1.7em;
+        list-style-type: none;
+        /* border-radius: 30px; */
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        text-align: center;
+        /* background-color: #333; */
+        
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: rgba(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: rgba(0, 0, 0);
+        opacity: 0.7;
+        color: rgb(32, 186, 171, 0.788);
+    }
+    
+    
+    #a_home{
+        border-bottom-left-radius: 20px;
+    }
+    #a_works{
+        background-color: rgb(0, 0, 0, 0.9);
+        color: white;
+        
+    }
+    #a_aboutme{
+        border-bottom-right-radius: 20px;
+    }
+    
+    #a_works:hover{
+        color: black;
+        color: white;
+    }
+    
+    
+    section {
+        color: rgb(32, 186, 171);
+        font-size: 1.5em;
+        margin-top: 25%;
+        margin-bottom: 20%;
+        text-align: center;
+    }
+    
+    
+    /* ----- DIV GITHUB ----- */
+    
+    #div_github{
+        display: flex wrap;
+        flex-flow: column ;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 2px solid red; */
+    }
+    
+    #linea_siti{
+        border-color:rgba(16, 115, 105, 0.64);
+        /* border-color: rgba(255, 255, 255, 0.721) ; */
+        border-radius: 50%;
+        width: 70%;
+        border-width: 5px;
+        margin-bottom: 3%;
+    }
+    
+    .titolo_sezione{
+        color: rgb(32, 186, 171);
+        font-size: 2.8em;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Plus Jakarta Sans';
+        text-shadow: 4px 3px  rgba(24, 136, 125, 0.336);
+    }
+    
+    .img_gh{
+        border: 5px inset rgb(32, 186, 171);
+        border-radius: 40px;
+        width: 100%;
+    }
+    .img_gh:hover{
+        opacity: 0.7;
+    }
+    
+    #div_github a:visited{
+        color: rgba(32, 186, 171);
+    }
+    #div_github a:hover{
+        color: red;
+        /* color: rgba(32, 186, 171, 0.311); */
+    }
+    
+    /* ----- SITO JOBS ----- */
+    #link_jobs{
+        position: relative;
+        color: rgb(32, 186, 171);
+        transform: rotate(-90deg);
+        font-size: 2.3em;
+        right: 34.5%;
+        bottom: 250px;
+    }
+    
+    .text_site{
+        /* border: 2px solid red; */
+        width: 100%;
+        font-size: 1.1em;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(32, 186, 171);
+    }
+    
+    
+    
+    #img_giochi{
+        border: 5px inset rgb(32, 186, 171);
+        border-radius: 40px;
+        width: 100%;
+    }
+    #img_giochi:hover{
+        opacity: 0.7;
+    }
+    
+    #linea_footer{
+        width: 75%;
+        border-width: 0.2em;
+        border-color: rgb(32, 186, 171);
+        margin-bottom: 2%;
+        margin-top: 5%;
+    }
+    
+    /* ----- FOOTER ----- */
+    
+    #social{
+        font-size: 3em;
+        margin-bottom: 3%;
+        text-align: center;
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        justify-content:space-evenly;
+    }
+    
+    .fa-pinterest {
+        /* background: #cb2027; */
+        color: rgb(32, 186, 171);
+        text-decoration: none;
+    }
+    
+    .fa-instagram {
+        /* background: #125688; */
+        color: rgb(32, 186, 171);
+        text-decoration: none;
+    }
+    
+    .fa-linkedin {
+        /* background: #007bb5; */
+        color: rgb(32, 186, 171);
+        text-decoration: none;
+    }
+    
+    .fa-whatsapp {
+        /* background: #27a90d; */
+        color: rgb(32, 186, 171);
+        text-decoration: none;
+    }
+    
+    .fa-github{
+        color: rgb(32, 186, 171);
+        text-decoration: none;
+    }
+      
+    .fa-instagram:hover{
+        opacity: 0.5;
+    }
+    .fa-linkedin:hover{
+        opacity: 0.5;
+    }
+    .fa-github:hover{
+        opacity: 0.5;
+    }
+    .fa-whatsapp:hover{
+        opacity: 0.5;
+    }
+    .fa-pinterest:hover{
+        opacity: 0.5;
+    }
+    
+    /* ----- FIGURE ----- */
+    #circle1 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 14%;
+        top: 30px;
+        left: 0px;
+        background-color: rgba(32, 186, 171);
+        shape-outside: circle();
+        clip-path: circle();
+        z-index: 0;
+    }
+    #circle2 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 14%;
+        top: 30px;
+        right: 0px;
+        background-color: rgb(32, 186, 171);
+        shape-outside: circle();
+        clip-path: circle();
+        z-index: -2;
+    }
+    #circle3 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 10%;
+        top: 11px;
+        left: 70px;
+        background-color: rgb(32, 186, 171, 0.6);
+        shape-outside: circle();
+        clip-path: circle();
+        z-index: 1;
+    }
+    #circle4 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 10%;
+        top: 11px;
+        tight: 70px;
+        background-color: rgb(32, 186, 171,0.6);
+        shape-outside: circle();
+        clip-path: circle();
+        z-index: 1;
+    }
+    #circle5 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 21px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.3);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    #circle6 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 21px;
+        tight: 130px;
+        background-color: rgb(32, 186, 171, 0.3);
+        shape-outside: circle();
+        clip-path: circle();
+    }
+    /* BOLLE LATERALI */
+    #circle7 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 330px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    #circle8 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 330px;
+        right: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    /* --------------------------------- */
+    #circle9 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 1070px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    #circle10 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 1070px;
+        right: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    /* --------------------------------- */
+    
+    #circle11 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 1780px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    #circle12 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 1780px;
+        right: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    /* --------------------------------- */
+    
+    #circle13 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 2325px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    #circle14 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 2325px;
+        right: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display:none;
+    }
+    /* --------------------------------- */
+    
+    #circle15 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 2925px;
+        left: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    #circle16 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        width: 7%;
+        top: 2925px;
+        right: 130px;
+        background-color: rgb(32, 186, 171, 0.7);
+        shape-outside: circle();
+        clip-path: circle();
+        display: none;
+    }
+    /* --------------------------------- */
+    
+    
+    }
